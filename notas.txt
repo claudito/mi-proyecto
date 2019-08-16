@@ -1,0 +1,18 @@
+
+#crear alias para la prueba unitaria
+alias t=vendor/bin/phpunit
+
+#Crear Página de pruebas para test unitario
+php artisan make:test UserModuleTest
+
+
+#Crear Controlador
+
+php artisan make:controller UserController
+
+
+#Limpiar Cache
+php artisan view:clear
+
+#plugins emmet
+Laravel Blade Highlighter
